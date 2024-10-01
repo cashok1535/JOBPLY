@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JOBPLY/static/css/main.de353f26.css",
-    "main.js": "/JOBPLY/static/js/main.2ccf1a2d.js",
+    "main.css": "/JOBPLY/static/css/main.6e6d0ff0.css",
+    "main.js": "/JOBPLY/static/js/main.d8e03dcc.js",
     "static/media/People.png": "/JOBPLY/static/media/People.e040f5a90fbfc758ae93.png",
     "static/media/postImg.png": "/JOBPLY/static/media/postImg.888c15b5d32ce155c610.png",
     "static/media/woman.png": "/JOBPLY/static/media/woman.4e46f66862ae00aca93a.png",
@@ -27,18 +27,26 @@
     "static/media/AdamFeetback.png": "/JOBPLY/static/media/AdamFeetback.d1139001e56a5a303b3c.png",
     "static/media/RedHatDisplay-Medium.woff": "/JOBPLY/static/media/RedHatDisplay-Medium.06fd91c32679ded93850.woff",
     "static/media/RedHatDisplay-Medium.woff2": "/JOBPLY/static/media/RedHatDisplay-Medium.7458cc1f3260e06a9a48.woff2",
+    "static/media/FirstNews.png": "/JOBPLY/static/media/FirstNews.af98d9fbbe15a25f7b0d.png",
     "static/media/Group.svg": "/JOBPLY/static/media/Group.44bd5bcb467ef965642d7cb46f5ca57d.svg",
     "static/media/Jobply.svg": "/JOBPLY/static/media/Jobply.e41417b5c07c589752ed65ad52fd598f.svg",
+    "static/media/FooterManyDots.svg": "/JOBPLY/static/media/FooterManyDots.f3e75f8d17aa03b5c85d0bec8edcf3e9.svg",
+    "static/media/Twitter.svg": "/JOBPLY/static/media/Twitter.df44f97d4ba381cc14b0d1b6f12d7395.svg",
+    "static/media/Group_202.svg": "/JOBPLY/static/media/Group_202.99e1c2a0452592fd4a42798b63b3e7c8.svg",
     "static/media/AccoutingSecond.svg": "/JOBPLY/static/media/AccoutingSecond.9b33d1e312bde89512013788f587dae1.svg",
     "static/media/HeaderImg.svg": "/JOBPLY/static/media/HeaderImg.ca71069e0b5b6002fd7d.svg",
     "static/media/Art.svg": "/JOBPLY/static/media/Art.31ed9914c4fed57de37ecd11313afd0a.svg",
     "static/media/AcideImg.svg": "/JOBPLY/static/media/AcideImg.d723e11ba466807c104688465ba9bd6d.svg",
     "static/media/paypal.svg": "/JOBPLY/static/media/paypal.3bff46995847ea0d6e3b50ca475fe4e2.svg",
+    "static/media/Facebook.svg": "/JOBPLY/static/media/Facebook.e0c35accf8b78601c656907845b17c0e.svg",
+    "static/media/FooterDots.svg": "/JOBPLY/static/media/FooterDots.f604d0d8e4c05a7cd8afe664ccb7a05d.svg",
+    "static/media/Linkedin.svg": "/JOBPLY/static/media/Linkedin.7e4077f626b791f2f7e32a4473a0910d.svg",
     "static/media/Human.svg": "/JOBPLY/static/media/Human.ba2270c3988dc1097d15a2adb95da36d.svg",
     "static/media/indeed.svg": "/JOBPLY/static/media/indeed.8cba85376a881df5cb276f2a24b6fffb.svg",
     "static/media/google.svg": "/JOBPLY/static/media/google.2dcd54a168eeeb9dbc95a2041ee89f08.svg",
     "static/media/Technical.svg": "/JOBPLY/static/media/Technical.3b5badb5641603870c1482537579a577.svg",
     "static/media/Digital.svg": "/JOBPLY/static/media/Digital.6ad4841516c645c9e3223c732d686362.svg",
+    "static/media/paper-plane.svg": "/JOBPLY/static/media/paper-plane.14548c19b4483c1016526a644b9d5242.svg",
     "static/media/UI.svg": "/JOBPLY/static/media/UI.3a2cca6c6f6c75fdf682e9653c772c44.svg",
     "static/media/Quotes.svg": "/JOBPLY/static/media/Quotes.b41ced520e9a8b5c609ccd9dc8c87d82.svg",
     "static/media/StarSecond.svg": "/JOBPLY/static/media/StarSecond.ac85571b606b92cf4b21c54310d45b49.svg",
@@ -46,13 +54,14 @@
     "static/media/content.svg": "/JOBPLY/static/media/content.2d181337c858247a9fe6722e96adca4d.svg",
     "static/media/Accouting.svg": "/JOBPLY/static/media/Accouting.47de3f72c6c9e5875ed0cfbda78e730a.svg",
     "index.html": "/JOBPLY/index.html",
+    "static/media/Group_419.svg": "/JOBPLY/static/media/Group_419.91e1395bf78f35b06ad767a3995cf49b.svg",
     "static/media/Location.svg": "/JOBPLY/static/media/Location.e8abc2f2947ccf4e1ccd.svg",
     "static/media/Search.svg": "/JOBPLY/static/media/Search.42a85c883b260c230ba3.svg",
-    "main.de353f26.css.map": "/JOBPLY/static/css/main.de353f26.css.map",
-    "main.2ccf1a2d.js.map": "/JOBPLY/static/js/main.2ccf1a2d.js.map"
+    "main.6e6d0ff0.css.map": "/JOBPLY/static/css/main.6e6d0ff0.css.map",
+    "main.d8e03dcc.js.map": "/JOBPLY/static/js/main.d8e03dcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.de353f26.css",
-    "static/js/main.2ccf1a2d.js"
+    "static/css/main.6e6d0ff0.css",
+    "static/js/main.d8e03dcc.js"
   ]
 }
