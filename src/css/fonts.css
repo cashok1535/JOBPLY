@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Axiforma-Book;
+  src:
+    url("../fonts/Axiforma-Book.woff2") format("woff2"),
+    url("../fonts/Axiforma-Book.woff") format("woff"),
+    url("../fonts/Axiforma-Book.eot") format("eot");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Axiforma-SemiBold;
+  src:
+    url("../fonts/Axiforma-SemiBold.woff2") format("woff2"),
+    url("../fonts/Axiforma-SemiBold.woff") format("woff"),
+    url("../fonts/Axiforma-SemiBold.eot") format("eot");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Georgia-Bold;
+  src:
+    url("../fonts/Georgia-Bold.woff2") format("woff2"),
+    url("../fonts/Georgia-Bold.woff") format("woff"),
+    url("../fonts/Georgia-Bold.eot") format("eot");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Georgia-Regular;
+  src:
+    url("../fonts/Georgia.woff2") format("woff2"),
+    url("../fonts/Georgia.woff") format("woff"),
+    url("../fonts/Georgia.eot") format("eot");
+  font-display: auto;
+}
+
+@font-face {
+  font-family: RedHatDisplay;
+  src:
+    url("../fonts/RedHatDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/RedHatDisplay-Medium.woff") format("woff"),
+    url("../fonts/RedHatDisplay-Medium.eot") format("eot");
+  font-display: auto;
+}

@@ -1,0 +1,916 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.headerNavbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  gap: 60px;
+  margin-left: 49px;
+}
+
+.navbarElement {
+  text-decoration: none;
+  color: #353540;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 18px;
+}
+
+.button {
+  padding: 19px 29px 18px 30px;
+  border: none;
+  background-color: #EE4F3C;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.buttonSecond {
+  padding: 19px 29px 18px 30px;
+  border: none;
+  background-color: #EE4F3C;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  display: flex;
+  gap: 16px;
+  max-width: 220px;
+  max-height: 60px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.buttonSecond img {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+}
+
+.headerBackground {
+  background: url('../img/HeaderImg.svg') no-repeat;
+  filter: invert(0.6);
+  height: 920px;
+  width: 650px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.headerBackground::after {
+  opacity: 70%;
+  background-color: rgb(197, 196, 196);
+  height: 920px;
+  width: 100%;
+}
+
+.Info {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 131px;
+}
+
+.infoTitle {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 72px;
+  line-height: 95px;
+  letter-spacing: 1px;
+  max-width: 652px;
+  margin-bottom: 30px;
+}
+
+.infoText {
+  color: #353540;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  max-width: 650px;
+  margin-bottom: 50px;
+}
+
+.headerForm {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 619px;
+  position: relative;
+}
+
+.headerFormInput {
+  max-width: 173.5px;
+  border: none;
+  outline: none;
+  padding-left: 65px;
+  font-size: 18px;
+  font-family: "Axiforma-Book", sans-serif;
+}
+
+.headerFormInput::placeholder {
+  padding-left: 40px;
+  height: 70px;
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 25.2px;
+  letter-spacing: 1px;
+  color: #5D5D61;
+  font-size: 18px;
+}
+
+
+.search::placeholder {
+  background: url("../img/Search.svg") no-repeat;
+  position: absolute;
+  left: 25px;
+}
+
+.location::placeholder {
+  background: url("../img/Location.svg") no-repeat;
+  position: absolute;
+  left: 25px;
+}
+
+.inputButton {
+  border-radius: 0px;
+}
+
+.line {
+  height: 42px;
+  width: 1px;
+  background-color: #CCCCCC;
+  z-index: 3;
+  position: absolute;
+  top: 14px;
+  left: 253px;
+}
+
+.headerinfoAll {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.headerImg {
+  position: relative;
+  top: 37px;
+  left: -20px;
+}
+
+.circle {
+  border: 70px solid #F5F5F5;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  z-index: -1;
+  right: -200px;
+}
+
+.big {
+  height: 814px;
+  width: 814px;
+}
+
+.little {
+  height: 540px;
+  width: 540px;
+  position: absolute;
+  top: 140px;
+  right: -60px;
+}
+
+.imgOnCircle {
+  background-color: #fff;
+  width: 83.37px;
+  height: 83.37px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 5px #EEEEEE;
+}
+
+.google {
+  position: absolute;
+  top: 191.78px;
+  left: -138px;
+  transform: rotate(9deg);
+}
+
+.indeed {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  transform: rotate(13deg);
+}
+
+.group {
+  position: absolute;
+  top: 77px;
+  right: -30px;
+  transform: rotate(15deg);
+}
+
+.paypal {
+  position: absolute;
+  top: 477px;
+  right: -180px;
+  transform: rotate(12.74deg);
+}
+
+.posts {
+  width: 100%;
+  height: 590px;
+  background-color: #232443;
+  z-index: 4;
+  position: relative;
+  transition: all 1s;
+  position: relative;
+}
+
+.posts::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/HeaderImg.svg");
+  z-index: -3;
+}
+
+
+
+.posts.active {
+  height: 1200px;
+}
+
+.peopleImg {
+  height: 200px;
+  width: 170px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.peopleImgName {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.peopleImgProf {
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 22.05px;
+}
+
+.parent {
+  position: relative;
+}
+
+.people {
+  width: 190px;
+  height: 120px;
+  overflow: hidden;
+  padding-top: 10px;
+  position: relative;
+  left: -10px;
+  z-index: 2;
+}
+
+.peopleBackPurple {
+  height: 120px;
+  width: 150px;
+  background-color: #6B5ACC;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.Maliha {
+  position: absolute;
+  top: -260px;
+  left: -150px;
+}
+
+
+.grade {
+  width: 40px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 105px;
+  right: 17px;
+  z-index: 3;
+  padding-top: 5px;
+  gap: 2px;
+}
+
+.Adam {
+  position: absolute;
+  top: -520px;
+  left: 550px;
+}
+
+.Adam::before {
+  height: 120px;
+  width: 150px;
+  background-color: #6B5ACC;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.postTitle {
+  text-align: center;
+  padding-top: 95px;
+  color: #fff;
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: 2px;
+  width: 1170px;
+}
+
+.postJobs {
+  width: 1170px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 30px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transition: all 1s;
+}
+
+.postJobs.active {
+  height: 810px;
+}
+
+.job {
+  min-width: 370px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  position: relative;
+  transition: all 1s;
+}
+
+.job:hover {
+  background: linear-gradient(to right, #ee4e3c, #EE4F3C80, #ee4e3c);
+}
+
+.job:hover>*:not(.avatars) {
+  color: #fff;
+}
+
+.job:hover .jobButton {
+  background-color: hwb(0 100% 0% / 0.1)
+}
+
+.company {
+  background-color: #fff;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.avatars {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+}
+
+.imgPlus {
+  width: 40px;
+  height: 40px;
+  background-color: #EBEBF0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatarSecond {
+  position: absolute;
+  right: 54px;
+}
+
+.avatarFirst {
+  position: absolute;
+  right: 78px;
+}
+
+.companyTitle {
+  font-family: "Axiforma-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 32.62px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 31px;
+  left: 90px;
+}
+
+.vacancy {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 27.27px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 95px;
+  left: 20px;
+}
+
+.country {
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 25.2px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 134px;
+  left: 20px;
+}
+
+.salary {
+  font-family: "Axiforma-SemiBold", sans-serif;
+  line-height: 26.1px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 200px;
+  right: 23px;
+}
+
+.jobButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}
+
+.left {
+  position: absolute;
+  top: 195px;
+  left: 20px;
+}
+
+.right {
+  position: absolute;
+  top: 195px;
+  left: 130px;
+}
+
+
+.view {
+  position: absolute;
+  bottom: 0px;
+  width: 102px;
+  height: 39px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Axiforma-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 39.14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding-bottom: 71px;
+}
+
+.viewParent {
+  display: flex;
+  justify-content: center;
+}
+
+
+.view:active {
+  color: #5c5c5c;
+}
+
+.category {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  grid-template-columns: 270px 270px 270px 270px;
+  gap: 30px;
+  position: relative;
+}
+
+.jobCategoriesTitle {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 54.54px;
+  letter-spacing: 1px;
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.categoryElement {
+  height: 270px;
+  width: 270px;
+  border: 1px solid #EEEEEE;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all .6s;
+}
+
+.categoryElement:hover {
+  border: none;
+  box-shadow: 0px 1px 10px #EEEEEE;
+}
+
+.categoryImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FFF8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.categoryName {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 22.72px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.categoryQuantity {
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 25.2px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.acideImgLeft {
+  position: absolute;
+  left: 32px;
+  top: 2240px;
+  width: min-content;
+}
+
+.newJob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  padding-top: 150px;
+}
+
+.jobInfoTitle {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 54.54px;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}
+
+.jobInfoText {
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.2px;
+  max-width: 402px;
+  padding-bottom: 50px;
+}
+
+.newJobImg {
+  display: flex;
+  gap: 30px;
+}
+
+.acide {
+  position: absolute;
+  right: 47px;
+  top: 3027px;
+}
+
+.postJob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 146px;
+  padding-top: 150px;
+  background: url("../img/PostBackground.png") no-repeat #FFF8F8;
+  max-height: 645px;
+}
+
+.post {
+  max-width: 412px;
+}
+
+.feetback {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 240px;
+}
+
+.feetbackTitle {
+  width: 440px;
+}
+
+.feetbackElement {
+  display: flex;
+  flex-direction: column;
+  min-width: 570px;
+  box-shadow: 10px 20px 20px #EEEEEE;
+  padding-left: 36px;
+}
+
+.quotes {
+  width: 37.15px;
+  margin-top: 53px;
+}
+
+.feetbackElementText {
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  color: #5D5D61;
+}
+
+.feetbackPerson {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+
+}
+
+.personInfoName {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  color: #353540;
+}
+
+.personInfoProf {
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  color: #5D5D61;
+}
+
+.stars {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.parentFeetbackElements {
+  width: 1255px;
+  height: min-content;
+  overflow: hidden;
+}
+
+.feetbackElements {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 0px;
+  transition: all .5s;
+}
+
+.feetbackButtons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.feetbackButton {
+  background-color: #F8F8F8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: all .5s;
+}
+
+.feetbackButton.active {
+  background-color: #EE4F3C;
+}
+
+.formBackground {
+  height: 493px;
+  width: 100%;
+  background: url("../img/HeaderImg.svg");
+}
+
+.formElement {
+  width: 1170px;
+  height: 400px;
+  background-color: #EE4F3C;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: -89px;
+  overflow: hidden;
+}
+
+.formTitle {
+  color: #fff;
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 54.54px;
+  letter-spacing: 2px;
+  width: 535px;
+  position: absolute;
+  top: 85px;
+  left: 150px;
+}
+
+.form {
+  background-color: #fff;
+  height: 70px;
+  width: 770px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 245px;
+  left: 150px;
+
+}
+
+.formInput {
+  height: 100%;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 25.2px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.dots {
+  position: absolute;
+  top: 295px;
+  right: 1068px;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.fotterDots {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.fotterDotsMany {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.footerFlex {
+  display: flex;
+  justify-content: center;
+  padding-top: 106px;
+  gap: 64px;
+}
+
+.elementSocials {
+  display: flex;
+  gap: 28px;
+  margin-top: 30px;
+}
+
+.footerText {
+  font-family: "Axiforma-Book", sans-serif;
+  line-height: 30px;
+  color: #5D5D61;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.activeFooter:active {
+  color: #EE4F3C;
+}
+
+.footerTitle {
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.footerFlexElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneNumber {
+  padding-top: 10px;
+}
+
+.First {
+  margin-right: 108px;
+}
+
+.elementNews {
+  display: flex;
+  padding: 30px 0;
+  max-width: 349px;
+  gap: 20px;
+}
+
+.newsText {
+  font-family: "Georgia-Regular", sans-serif;
+  line-height: 18.18px;
+  margin-bottom: 13px;
+}
+
+.newsData {
+  font-family: "Axiforma-SemiBold", sans-serif;
+  font-size: 12px;
+  color: #EE4F3C;
+}
+
+.copyright {
+  border-top: 1px solid #EEEEEE;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 14px;
+  color: #5D5D61;
+}
